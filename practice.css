@@ -1,0 +1,59 @@
+.nav-bar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #7182A2;
+    padding: 20px;
+    margin: 0px;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+
+.nav-bar a {
+    float: right; /*affects home & contact*/
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.nav-bar a:hover {
+    background-color: #F0F2F6;
+    border-radius: 5px;
+}
+
+.subnav{
+    /* float: right; */
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    /* styling button - personal preference */
+}
+
+.nav-bar a:hover, .subnav:hover .subnavbtn {
+    /* style stuff */
+}
+
+.subnav-content {
+    display: none;
+    /* position: absolute; */
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.subnav-content a{
+    /* style stuff change later */
+}
+
+.subnav-content a:hover {
+    /* style */
+}
+
+.subnav:hover .subnav-content{
+    display: block;
+}
